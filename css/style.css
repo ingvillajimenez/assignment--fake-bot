@@ -1,0 +1,97 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+p {
+  display: none;
+  text-align: right;
+  background-color: #DCF8C6;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+strong {
+  vertical-align: 100%;
+  margin-left: 10px;
+  color: #808080;
+}
+
+input {
+  display: none;
+  text-align: left;
+  background-color: #FFFFFF;
+  border-radius: 5px;
+  padding: 5px;
+  border: none;
+}
+
+img {
+  width: 60px;
+  height: 60px;
+  margin-left: 20px;
+}
+
+.container{
+  width: 50%;
+  height: 350px;
+  margin: 0 auto;
+  background-color: #ECE5DD;
+}
+
+.navbar{
+  background-color: rgb(238, 238, 238);
+  display: flex;
+  justify-content: space-between;
+}
+
+.fas {
+  padding: 20px;
+  font-size: 20px;
+  opacity: 0.4;
+}
+
+.conversation{
+  position: relative;
+}
+
+.first{
+  position: absolute;
+  right: 20px;
+}
+
+.second {
+  position: absolute;
+  right: 20px;
+  top: 40px;
+}
+
+.third {
+  position: absolute;
+  right: 10px;
+  top: 80px;
+}
+
+.username{
+  position: absolute;
+  left: 20px;
+  top: 140px;
+}
+
+.evaluation{
+  position: absolute;
+  right: 20px;
+  top: 160px;
+}
+
+.last{
+  position: absolute;
+  right: 20px;
+  top: 200px;
+}
