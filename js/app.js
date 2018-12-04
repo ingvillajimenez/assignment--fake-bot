@@ -34,7 +34,7 @@ nameBox.addEventListener('keyup', function(event){
       }
       else{
         nameEvaluation.textContent = "That's a long name";
-        nameEvaluation.style.display = "inline-block";
+        nameEvaluation.style.display = "block";
       }
       setTimeout(function(){
         lastMessage.innerHTML = "Nice to meet you, <span>" + name + "</span>";
