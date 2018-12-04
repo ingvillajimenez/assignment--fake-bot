@@ -7,6 +7,8 @@
 body {
   margin: 0;
   font-family: 'Roboto', sans-serif;
+  background: url("http://i.imgur.com/TnNwdvV.png");
+  font-size: 20px;
 }
 
 p {
@@ -30,19 +32,13 @@ input {
   border-radius: 5px;
   padding: 5px;
   border: none;
+  font-size: 20px;
 }
 
 img {
   width: 60px;
   height: 60px;
   margin-left: 20px;
-}
-
-.container{
-  width: 50%;
-  height: 350px;
-  margin: 0 auto;
-  background-color: #ECE5DD;
 }
 
 .navbar{
@@ -69,29 +65,29 @@ img {
 .second {
   position: absolute;
   right: 20px;
-  top: 40px;
+  top: 50px;
 }
 
 .third {
   position: absolute;
-  right: 10px;
-  top: 80px;
+  right: 20px;
+  top: 100px;
 }
 
 .username{
   position: absolute;
   left: 20px;
-  top: 140px;
+  top: 170px;
 }
 
 .evaluation{
   position: absolute;
   right: 20px;
-  top: 160px;
+  top: 200px;
 }
 
 .last{
   position: absolute;
   right: 20px;
-  top: 200px;
+  top: 250px;
 }
